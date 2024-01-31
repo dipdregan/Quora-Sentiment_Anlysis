@@ -1,0 +1,15 @@
+pandas
+numpy
+ipykernel
+imbalanced-learn
+matplotlib
+seaborn
+scikit-learn
+nltk
+wordcloud
+tensorflow-cpu
+pyYAML
+types-PyYAML
+
+# tensorflow
+-e .
