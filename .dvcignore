@@ -1,3 +1,27 @@
 # Add patterns of files dvc should ignore, which could improve
 # the performance. Learn more at
 # https://dvc.org/doc/user-guide/dvcignore
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore editor and IDE configuration files
+.vscode/
+.idea/
+
+# Ignore data files not needed for version control
+data/
+*.zip
+*.csv
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.out

@@ -9,6 +9,7 @@ nltk
 wordcloud
 tensorflow-cpu
 pyYAML
+gdown
 types-PyYAML
 
 # tensorflow
