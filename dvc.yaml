@@ -1,0 +1,12 @@
+stages:
+  data ingestion:
+    cmd: python senti_ays/src/pipeline/data_pipeline.py
+    deps:
+      - senti_ays/src/components/data_ingetion.py
+      - senti_ays/src/entity/config_entity.py
+      - senti_ays/src/entity/artifact_entity.py
+      - senti_ays/src/constant/constants.py
+    outs:
+      - artifacts/data-ingestion/quora-insincere-questions-classification/train.csv
+      - artifacts/data-ingestion/quora-insincere-questions-classification/test.csv
+      - artifacts/data-ingestion/quora-insincere-questions-classification/sample_submission.csv
